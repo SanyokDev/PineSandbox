@@ -1,13 +1,15 @@
 ﻿using Raylib_cs;
+using FluxEngine;
 
-namespace Game_Name;
+namespace FarmingGame;
 
 internal static class Program
 {
     public static void Main()
     {
         Raylib.InitWindow(640, 360, "Hello World");
-
+        EngineTest.Log();
+        
         while (!Raylib.WindowShouldClose())
         {
             Raylib.BeginDrawing(); 
