@@ -1,7 +1,7 @@
 ﻿using Raylib_cs;
-using FluxEngine;
+using Pine2D;
 
-namespace FarmingGame;
+namespace PineSandbox;
 
 internal static class Program
 {
@@ -15,8 +15,7 @@ internal static class Program
             Raylib.BeginDrawing(); 
             Raylib.ClearBackground(Color.WHITE);
             
-            Raylib.DrawText("Hello, world!", 16, 16, 20, Color.BLACK);
-
+            Raylib.DrawText(Raylib.GetFPS().ToString(), 16, 16, 20, Color.BLACK);
             Raylib.EndDrawing();
         }
 

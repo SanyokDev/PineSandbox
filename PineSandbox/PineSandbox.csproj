@@ -5,15 +5,21 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>FarmingGame</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Raylib-cs" Version="4.0.0.2" />
     </ItemGroup>
-
+    
     <ItemGroup>
-      <ProjectReference Include="..\..\FluxEngine\FluxEngine.csproj" />
+      <Folder Include="Audio" />
+      <Folder Include="Data" />
+      <Folder Include="Graphics" />
+      <Folder Include="Source" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\..\Pine2D\Pine2D.csproj" />
     </ItemGroup>
 
 </Project>
