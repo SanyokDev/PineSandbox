@@ -14,7 +14,3 @@
     <a href="https://sanyokdev.github.io/tags/pine2d"><strong>Dev blog for updates</strong></a>
   </p>
 </div>
-
-<!-- About -->
-## About :
-TBD
