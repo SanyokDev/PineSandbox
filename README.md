@@ -7,7 +7,7 @@
   <h3 align="center">Pine Sandbox</h3>
   
   <p align="center">
-    A sandbox type project used to explore my game engine (<a href="https://github.com/SanyokDev/Pine2D-Engine">Pine2D</a>).
+    A sandbox type project used to explore my game engine.
     <br/>
     Not intended for use yet, under early development.
     <br/>
