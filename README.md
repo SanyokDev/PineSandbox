@@ -11,6 +11,6 @@
     <br/>
     Not intended for use yet, under early development.
     <br/>
-    <a href="https://sanyokdev.github.io/tags/pine2d"><strong>Dev blog for updates</strong></a>
+    <a href="https://blog.sanyok.dev/tags/pine2d"><strong>Dev blog for updates</strong></a>
   </p>
 </div>
