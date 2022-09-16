@@ -1,24 +1,24 @@
-﻿using Raylib_cs;
-using Pine2D;
+﻿using Pine2D.Core;
 
 namespace PineSandbox;
 
 internal static class Program
 {
+    /// <summary>
+    /// The main entry point for the application.
+    /// </summary>
     public static void Main()
     {
-        Raylib.InitWindow(640, 360, "Hello World");
-        EngineTest.Log();
-        
-        while (!Raylib.WindowShouldClose())
+        var settings = new WindowSettings
         {
-            Raylib.BeginDrawing(); 
-            Raylib.ClearBackground(Color.WHITE);
-            
-            Raylib.DrawText(Raylib.GetFPS().ToString(), 16, 16, 20, Color.BLACK);
-            Raylib.EndDrawing();
-        }
+            /*
+            ScreenWidth = 320,
+            ScreenHeight = 160,
+            Title = "Test"
+            */
+        };
 
-        Raylib.CloseWindow();
+        var app = new Game(settings);
+        app.Run();
     }
 }
