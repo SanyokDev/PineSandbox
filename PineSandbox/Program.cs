@@ -11,11 +11,9 @@ internal static class Program
     {
         var settings = new WindowSettings
         {
-            /*
-            ScreenWidth = 320,
-            ScreenHeight = 160,
-            Title = "Test"
-            */
+            ScreenWidth = SimConfig.WindowSize,
+            ScreenHeight = SimConfig.WindowSize,
+            Title = "Mandelbrot Set Visualizer - Raylib"
         };
 
         var app = new Game(settings);
